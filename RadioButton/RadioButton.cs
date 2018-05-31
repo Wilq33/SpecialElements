@@ -13,17 +13,18 @@ class RadioButton
     static void Main()
     {
         string url = "http://testing.todvachev.com/special-elements/radio-button-test/";
-        string[] option = { "1","3", "5" };
+        string[] option = { "1", "3", "5" };
 
         driver.Navigate().GoToUrl(url);
 
+        //Checking for values of radio buttons
         for (int i = 0; i < option.Length; i++)
         {
             radioButton = driver.FindElement(By.CssSelector("#post-10 > div > form > p:nth-child(6) > input[type=\"radio\"]:nth-child(" + option[i] + ")"));
 
             if (radioButton.GetAttribute("checked") == "true")
             {
-                Console.WriteLine("The " + (i+1) +  " radio button is checked");
+                Console.WriteLine("The " + (i + 1) + " radio button is checked");
             }
             else
             {
@@ -31,7 +32,7 @@ class RadioButton
             }
         }
 
-       
+
 
         driver.Quit();
     }
