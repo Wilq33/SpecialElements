@@ -20,7 +20,7 @@ class InputTextBox
         textBox.SendKeys("Test text");
 
         Thread.Sleep(3000);
-
+ 
         Console.WriteLine(textBox.GetAttribute("maxlength"));
 
         Thread.Sleep(3000);

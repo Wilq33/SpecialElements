@@ -27,7 +27,7 @@ class RadioButton
             }
             else
             {
-                Console.WriteLine("This is on of radio button that is NOT checked");
+                Console.WriteLine("This is one of radio buttons that is NOT checked");
             }
         }
 
