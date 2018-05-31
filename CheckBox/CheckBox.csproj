@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C4882AC-AA70-47D6-802D-6CF8A65FCE68}</ProjectGuid>
+    <ProjectGuid>{BDA8C9C5-D7A3-4D9E-9CA8-F2C93E377AD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SpecialElements</RootNamespace>
-    <AssemblyName>SpecialElements</AssemblyName>
+    <RootNamespace>CheckBox</RootNamespace>
+    <AssemblyName>CheckBox</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InputTextBox.cs" />
+    <Compile Include="CheckBox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

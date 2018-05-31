@@ -13,8 +13,6 @@ class InputTextBox
     {
         string url = "http://testing.todvachev.com/special-elements/text-input-field/";
 
-
-
         driver.Navigate().GoToUrl(url);
 
         textBox = driver.FindElement(By.Name("username"));
